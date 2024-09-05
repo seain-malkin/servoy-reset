@@ -1,0 +1,128 @@
+@import "navbar/svy-navbar.css";
+@import "switch/bootstrap-switch.css";
+
+.breadcrumb > li > a:hover {
+    cursor: pointer;
+}
+
+.svy-wrapper > * > .bts-extra-breadcrumbs {
+    width: 100%;
+    
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.bts-extra-navbar .dropdown-item{
+    cursor: pointer;
+}
+
+.bts-extra-badge { 
+    display: inline-block;
+}
+
+.svy-wrapper > * > .bts-extra-badge {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    white-space: nowrap;
+    display: block;
+}
+
+.svy-wrapper>*>.bts-extra-badge a {
+	color: #337ab7 !important;
+	text-decoration: none !important;
+}
+
+.svy-wrapper>*>.bts-extra-badge .label-badge-class {
+    background-color: #777777 !important;
+}
+
+.svy-wrapper > * > .bts-extra-badge a:hover, 
+.svy-wrapper > * > .bts-extra-badge a:focus {
+    color: #23527c !important;
+    text-decoration: underline !important;
+    cursor: pointer;
+}
+
+.svy-wrapper > * > .bts-extra-badge .btn {
+    float: initial;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    line-height: normal;
+    padding-top: initial;
+    padding-bottom: initial;
+}
+
+.svy-wrapper > * > .bts-extra-input-group {
+    width: 100%;
+}
+
+.bts-extra-input-group > .addon-left {
+    border-right: 0;
+}
+
+.bts-extra-input-group > .addon-right {
+    border-left: 0;
+}
+
+.svy-wrapper > * > .bts-extra-progressbar {
+    width: 100%;
+    white-space: nowrap;
+}
+
+.bts-extra-progressbar {
+    height: 20px;
+}
+
+.bts-extra-progressbar > .progress-bar {
+    line-height: 20px;
+    overflow: visible;
+}
+
+.svy-wrapper > * > .bts-extra-switch {
+    overflow: hidden;
+}
+
+.bts-extra-carousel .carousel-control-prev .carousel-control-prev-icon,
+.bts-extra-carousel .carousel-control-next .carousel-control-next-icon {
+  height: 50px;
+  width: 50px;
+  outline: #666563;
+  border-radius: 50%;
+  border: 1px solid #666563;
+  background: #666563;
+  display: flex;
+}
+
+.bts-extra-carousel .carousel-control-next .carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 40px;
+  color: #ffffff;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.bts-extra-carousel .carousel-control-prev .carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 40px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.bts-extra-carousel .carousel-control-prev {
+	left: 5px;
+	justify-content: start;
+}
+
+.bts-extra-carousel .carousel-control-next {
+	right: 5px;
+	justify-content: end;
+}
+
+.bts-extra-carousel-hidden {
+	visibility: hidden;
+}
